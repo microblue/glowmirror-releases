@@ -47,16 +47,16 @@
     background: var(--card); border: 1px solid var(--line); padding: 14px; box-shadow: 0 20px 60px rgba(120,60,70,.18); }
   .screen { width: 100%; height: 100%; border-radius: 28px; position: relative; overflow: hidden;
     background: radial-gradient(120% 80% at 50% 30%, #f9e3dc 0, #efc6bb 50%, #d99a92 100%); }
-  .screen .face { position: absolute; left: 50%; top: 40%; width: 62%; aspect-ratio: .78; transform: translate(-50%,-50%);
+  .screen .face { position: absolute; left: 50%; top: 44%; width: 74%; aspect-ratio: .76; transform: translate(-50%,-50%);
     border-radius: 50% 50% 46% 46% / 55% 55% 45% 45%; background: #f6d8cc; box-shadow: inset 0 -10px 24px rgba(160,90,80,.18); }
-  .screen .cheek { position: absolute; top: 56%; width: 26%; aspect-ratio: 1.5; border-radius: 50%;
+  .screen .cheek { position: absolute; top: 55%; width: 28%; aspect-ratio: 1.5; border-radius: 50%;
     background: radial-gradient(closest-side, rgba(236,120,130,.55), transparent); }
-  .screen .cheek.l { left: 4%; } .screen .cheek.r { right: 4%; }
-  .screen .lip { position: absolute; left: 50%; top: 76%; width: 30%; height: 9%; transform: translateX(-50%);
+  .screen .cheek.l { left: 6%; } .screen .cheek.r { right: 6%; }
+  .screen .lip { position: absolute; left: 50%; top: 73%; width: 32%; height: 8%; transform: translateX(-50%);
     border-radius: 50% 50% 50% 50% / 40% 40% 60% 60%; background: linear-gradient(#c8465e, #a8324a); }
-  .screen .eye { position: absolute; top: 40%; width: 20%; height: 5%; border-radius: 50%; background: #3a2a2e;
+  .screen .eye { position: absolute; top: 41%; width: 22%; height: 5%; border-radius: 50%; background: #3a2a2e;
     box-shadow: 0 -6px 10px rgba(170,110,150,.45); }
-  .screen .eye.l { left: 20%; } .screen .eye.r { right: 20%; }
+  .screen .eye.l { left: 17%; } .screen .eye.r { right: 17%; }
   .chips { position: absolute; left: 10px; right: 10px; bottom: 12px; display: flex; gap: 6px; justify-content: center; }
   .chips span { width: 22px; height: 22px; border-radius: 50%; border: 2px solid #fff; }
   section { padding: 48px 0; border-top: 1px solid var(--line); }
@@ -111,10 +111,11 @@
     </div>
     <div class="phone" aria-hidden="true">
       <div class="screen">
-        <div class="face"></div>
-        <div class="eye l"></div><div class="eye r"></div>
-        <div class="cheek l"></div><div class="cheek r"></div>
-        <div class="lip"></div>
+        <div class="face">
+          <div class="eye l"></div><div class="eye r"></div>
+          <div class="cheek l"></div><div class="cheek r"></div>
+          <div class="lip"></div>
+        </div>
         <div class="chips">
           <span style="background:#c8465e"></span><span style="background:#e27d7f"></span>
           <span style="background:#b0566a"></span><span style="background:#d9907a"></span><span style="background:#8e3b4f"></span>
