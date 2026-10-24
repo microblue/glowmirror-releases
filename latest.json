@@ -1,7 +1,7 @@
 {
- "versionCode": 4,
- "versionName": "0.4",
- "url": "https://github.com/microblue/glowmirror-releases/releases/download/v0.4/glowmirror-0.4.apk",
- "sha256": "3a703775d986e86ae86082af7255d8d0fc3d8294206f1185588c95b139260cc0",
- "notes": "v0.4：全部 11 类化妆都能试（底妆、遮瑕、修容、高光、腮红、眉毛、眼影、眼线、睫毛、唇线、口红），7 套整妆一键试，每类可选颜色、浓淡和质地"
+ "versionCode": 5,
+ "versionName": "0.5",
+ "url": "https://github.com/microblue/glowmirror-releases/releases/download/v0.5/glowmirror-0.5.apk",
+ "sha256": "9e96f1b98a599adb0a5a8dc71e6b1475aa1c85dd16f69161644f261e7a7cbd03",
+ "notes": "新版：面部档案、教我画（边画边检查）、前后对比、拍照分享。New: face profile, Teach me with live checking, before/after, photo sharing."
 }
