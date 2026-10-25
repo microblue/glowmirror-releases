@@ -1,7 +1,7 @@
 {
- "versionCode": 5,
- "versionName": "0.5",
- "url": "https://github.com/microblue/glowmirror-releases/releases/download/v0.5/glowmirror-0.5.apk",
- "sha256": "9e96f1b98a599adb0a5a8dc71e6b1475aa1c85dd16f69161644f261e7a7cbd03",
- "notes": "新版：面部档案、教我画（边画边检查）、前后对比、拍照分享。New: face profile, Teach me with live checking, before/after, photo sharing."
+ "versionCode": 6,
+ "versionName": "0.6",
+ "url": "https://github.com/microblue/glowmirror-releases/releases/download/v0.6/glowmirror-0.6.apk",
+ "sha256": "56b0bc59115553397cd2171e24feec132cb40db01e6e0e10b575e077637cc5b2",
+ "notes": "新版：全新界面，不用左右滑；10 种妆容风格一键上脸，可调浓淡；应用内切换中文 / English。New: redesigned, no sideways scrolling; 10 one-tap looks with Light/Medium/Bold; in-app 中文 / English switch."
 }
